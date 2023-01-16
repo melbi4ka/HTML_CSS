@@ -138,4 +138,11 @@ dmypy.json
 03_WikiPage
 02_Fruits
 
+01_NavigationBar
+02_PageContent
+03_Semantic-Tags
+04_Semantic-Article-Page
+05_SimpleWebsite
+06_Semantic-Blog-Layout
+
 *.zip

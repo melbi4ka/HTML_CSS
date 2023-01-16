@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+
+section {
+  margin-left: 20px;
+}
+
+article header h1 {
+  font-size: 28px;
+}
+
+article header p {
+  font-style: italic;
+}
+
+.non-header-p {
+  font-size: 24px;
+}
+
+/* •	<section> as a container
+•	<article> tag for content
+o	<header> with:
+	<h1> Text size: 28px;
+	<p> Font Style: italic;
+•	Paragraph
+o	Text size: 24px;
+•	<body>
+o	Margin: 0px;
+o	Padding: 0px;
+o	Background color: #CCCCCC;
+•	<section>
+o	Margin Left: 20px;
+
+ */
