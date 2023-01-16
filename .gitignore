@@ -146,3 +146,4 @@ dmypy.json
 06_Semantic-Blog-Layout
 
 *.zip
+.vscode
