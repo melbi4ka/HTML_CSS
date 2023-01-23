@@ -20,6 +20,7 @@ blockquote {
 
 blockquote p {
   padding-left: 25px;
+  padding-top: 15px;
 }
 
 blockquote p:last-of-type {
