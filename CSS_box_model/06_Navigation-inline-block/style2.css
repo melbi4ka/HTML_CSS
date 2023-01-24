@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+.header .description {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 60px;
+}
+
+.header .nav .nav-items li .links {
+  display: inline-block;
+  color: green;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.header .nav {
+  display: inline-block;
+}
+
+.header .nav .nav-items li {
+  list-style-type: none;
+  display: inline-block;
+}

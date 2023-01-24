@@ -145,5 +145,7 @@ dmypy.json
 05_SimpleWebsite
 06_Semantic-Blog-Layout
 
+test
+
 *.zip
 .vscode
