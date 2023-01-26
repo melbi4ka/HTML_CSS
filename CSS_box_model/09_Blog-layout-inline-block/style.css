@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+/* body {
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+} */
+
+article {
+  display: inline-block;
+  width: 800px;
+}
+
+article header {
+  margin-bottom: 45px;
+}
+
+article section ul {
+  list-style-type: square;
+}
+
+article img {
+  width: 70%;
+}
+
+aside {
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  margin-left: 30px;
+}
+
+aside ul {
+  list-style-type: square;
+}
