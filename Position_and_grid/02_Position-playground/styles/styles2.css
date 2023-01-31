@@ -1,0 +1,63 @@
+@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: unset;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0;
+}
+
+.viewport.one {
+  grid-row: 1 / 2;
+  background-image: linear-gradient(to right, #1a609d, #40c5a2);
+  position: relative;
+}
+
+.viewport.two {
+  grid-row: 2/3;
+  background-image: linear-gradient(to right, #aa3671, #d17f16);
+  position: relative;
+}
+
+.card {
+  display: block;
+  text-align: center;
+  position: relative;
+  
+  
+}
+
+/* .card {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
+.fas {
+  color: red;
+  position: absolute;
+  z-index: 15;
+  top: 90%;
+  left: 60%;
+}
+
+/* .fas.fa-link {
+  top: 90%;
+  left: 93%;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  /* bottom: 20px;
+  right: 10px;
+  color: white; */
+} */
+
+/* .fas.fa-star {
+  top: 95%;
+  left: 93%;
+} */

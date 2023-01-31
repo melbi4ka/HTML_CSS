@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.viewport {
+  height: 50vh;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.viewport.one {
+  background-image: linear-gradient(to right, #1a609d, #40c5a2);
+}
+
+.viewport.two {
+  background-image: linear-gradient(to right, #aa3671, #d17f16);
+}
+
+.card {
+  display: block;
+  position: absolute;
+  /* width: 250px; */
+  /* background-color: #40c5a2; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%;
+}
+
+.fas {
+  position: absolute;
+  bottom: 6px;
+  right: 4px;
+  color: white;
+}
