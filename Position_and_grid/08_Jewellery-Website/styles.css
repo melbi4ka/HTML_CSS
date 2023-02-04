@@ -1,1 +1,32 @@
-/* TODO: style the html */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: relative;
+}
+
+section {
+  position: absolute;
+  top: 250px;
+  left: 180px;
+}
+
+section div {
+  position: relative;
+  bottom: 50px;
+  left: 8px;
+}
+
+section div span {
+  padding-left: 3px;
+  color: gray;
+  font-size: 14px;
+}
+
+section div h3 {
+  font-size: 16px;
+  margin: 0;
+}
