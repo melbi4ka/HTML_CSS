@@ -3,7 +3,7 @@ Site title
 Home
 About
 Blog
-Contacts
+
 
 Heading level 1
 
