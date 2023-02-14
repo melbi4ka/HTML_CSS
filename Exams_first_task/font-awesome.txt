@@ -1,7 +1,0 @@
-https://cdnjs.com/libraries/font-awesome 
-
-@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
-
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
-внимателно с този линк, защото не съм работила с него 
-
