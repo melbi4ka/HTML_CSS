@@ -21,6 +21,7 @@ body {
 
 .form {
   width: 920px;
+
   position: absolute;
   z-index: 2;
   top: 50%;
