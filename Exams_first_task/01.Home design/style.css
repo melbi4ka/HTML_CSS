@@ -1,0 +1,106 @@
+@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+html {
+  font-family: "Courgette", cursive;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px;
+  background-color: lightgrey;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 30px;
+  /* gap: 5px; */
+}
+
+.header .main-title {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+main .main-subtitle {
+  font-size: 26px;
+  color: #c9181d;
+  letter-spacing: 1.5px;
+  margin-left: 230px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cards .card {
+  max-width: 310px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cards .card .card-desc {
+  background-color: aliceblue;
+  min-height: 200px;
+  /* height: 100%; */
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.cards .card img {
+  width: 100%;
+  height: 170px;
+
+  object-fit: cover;
+}
+
+.cards .card .card-desc h3 {
+  font-size: 22px;
+  padding-bottom: 5px;
+  /* align-self: stretch; */
+  text-align: center;
+  border-bottom: 2px solid #c9181d;
+  margin: 10px;
+}
+
+.cards .card .card-desc p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.cards .card .card-desc p:last-child {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.cards .card .card-desc i {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 18px;
+  height: 18px;
+  background-color: #c9181d;
+  border-radius: 100%;
+  color: aliceblue;
+  font-size: x-small;
+  text-align: center;
+  padding: 2px;
+}

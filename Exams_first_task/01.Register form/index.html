@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register form</title>
+  </head>
+  <body>
+    <img src="./images/background.png" alt="background" class="background" />
+
+    <form action="" method="post" class="form">
+      <img
+        src="./images/form-background.png"
+        alt="background"
+        class="background-img"
+      />
+
+      <div class="form-fields">
+        <h1 class="form-title">Registration Form</h1>
+
+        <div class="names">
+          <div class="name">
+            <label for="uname">First Name</label>
+            <input type="text" name="uname" id="uname" required />
+          </div>
+
+          <div class="name">
+            <label for="uname">Last Name</label>
+            <input type="text" name="uname" id="uname" required />
+          </div>
+        </div>
+
+        <div class="em-psw">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" required />
+        </div>
+
+        <div class="em-psw">
+          <label for="psw">Password</label>
+          <input type="password" name="psw" id="psw" required />
+        </div>
+
+        <div class="em-psw">
+          <label for="psw">Confirm password</label>
+          <input type="password" name="psw" id="psw" required />
+        </div>
+
+        <label class="terms">
+          <input type="checkbox" checked="false" name="remember" />I accept the
+          Terms of Use & Privacy Policy.
+        </label>
+
+        <button type="button" class="button">Register Now</button>
+      </div>
+
+      <!-- <div class="container">
+        
+        <button type="button" class="button">Register Now</button>
+      </div> -->
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+  /* footer {
+    background-color: aqua;
+  } */
+  body {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "aside aside"
+      "main main"
+      "footer footer";
+  }
+}
