@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+article {
+  max-width: 900px;
+  height: 430px;
+  /* border: 1px solid orangered; */
+  box-shadow: 0px 1px 14px 2px rgba(85, 92, 88, 1);
+  margin: 50px auto;
+}
+
+.card {
+  background: url("image/image1.png");
+  background-repeat: repeat-y;
+  background-color: transparent;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.card .card-desc {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .card-desc h2 {
+  align-self: center;
+  margin-bottom: -30px;
+}
+
+.card .card-desc .desc-subtitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-top: 1px solid lightgray;
+}
+
+.card .card-desc ul li span {
+  color: #00742c;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.card .card-desc table,
+.card .card-desc tr,
+.card .card-desc td,
+.card .card-desc th {
+  border: 1px solid green;
+  text-align: center;
+}
+
+.card .card-desc table {
+  border-collapse: collapse;
+}
+
+.card .card-img {
+  width: 50%;
+  padding: 20px;
+}
+
+.card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
