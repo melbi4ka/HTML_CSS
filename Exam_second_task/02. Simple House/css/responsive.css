@@ -1,0 +1,42 @@
+/* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+  .row.tm-header-inner {
+    flex-direction: column;
+  }
+  .col-12.tm-section-title {
+    margin-left: 0;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-size: 40px;
+    max-width: 80%;
+  }
+  .row.tm-gallery {
+    /* flex-direction: column; */
+    margin-left: 0;
+    justify-content: center;
+  }
+  .tm-gallery-page {
+    margin: 0;
+  }
+
+  #tm-gallery-page-pizza {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tm-cta-section .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+  }
+
+  .tm-cta-section .row .col-md-6 {
+    flex-shrink: 2;
+  }
+
+  /* .tm-description-box {
+    max-width: 450px;
+  } */
+}
