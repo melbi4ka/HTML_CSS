@@ -39,6 +39,10 @@
     margin-bottom: 80px;
   }
 
+  #about-us .row {
+    gap: 30px;
+  }
+
   .about .row {
     gap: 50px;
   }
@@ -54,7 +58,12 @@
     text-align: center;
   }
 
-  .about .hero-btns {
+  #contact-us .hero-btns {
     display: none;
+  }
+
+  .container .contact-nav {
+    display: flex;
+    flex-direction: column;
   }
 }
