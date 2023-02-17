@@ -1,1 +1,50 @@
 /* TODO: Add media queries */
+@media screen and (max-width: 600px) {
+  header .avatar img {
+    /* border-radius: 100%;
+        display: block; */
+    width: 14em;
+  }
+  h1 {
+    font-size: 2.25em;
+    line-height: 1.6;
+  }
+
+  .icon.style2 {
+    /* padding: 1.25em; */
+    font-size: x-large;
+  }
+
+  .thumbnails {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .thumbnails > div {
+    width: 100%;
+    /* gap: 15px; */
+  }
+
+  .thumbnails a {
+    height: 380px;
+  }
+
+  .thumbnails a img {
+    height: 80%;
+    overflow: hidden;
+    /* object-fit: cover; */
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .thumbnails a h3 {
+    margin: 0.5em;
+  }
+
+  footer p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
