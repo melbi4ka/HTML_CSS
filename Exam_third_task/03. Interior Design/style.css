@@ -13,6 +13,9 @@ font-family: 'Roboto', sans-serif;
   border: 1px solid orangered;
 } */
 
+html{
+  font-family: 'Roboto', sans-serif;;
+}
 h1,
 h2,
 h3,
@@ -33,11 +36,37 @@ h6 {
   overflow: hidden;
 }
 
-box-1, box-2 {
+.box-1, .box-2 {
   padding: 20px 10px;
   width: 250px;
   height: 150px;
   box-shadow: 0 0 10px 1px #333333;
+}
+
+.box-1 {
+  height: 60%;
+}
+
+.box-2 {
+  float: right;
+  width: 350px;
+  height: unset;
+  background-image: linear-gradient(to right, #9b9189, #c9c7c6);
+  color: white;
+  text-align: right;
+  
+}
+
+.box-2 p i {
+  margin-top: -50px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: normal;
+  color: #8d8581;
+}
+
+.box-2 p:last-child {
+  text-shadow: 4px 3px 0 #7A7A7A;
 }
 
 /* .header-img {
