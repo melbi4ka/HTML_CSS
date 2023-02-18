@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  /* body {
+    background-color: red;
+  } */
+  .main-movie-poster {
+    display: none;
+  }
+
+  .main-movie-trailer {
+    width: 100%;
+  }
+
+  .main-movie-poster img {
+    height: 100%;
+  }
+
+  .main-movie ul li {
+    padding: 0;
+  }
+
+  .main-movie ul li iframe {
+    width: 100%;
+    object-fit: scale-down;
+  }
+}
